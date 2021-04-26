@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #b0d9f8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    line-height: 1;
+}
+
+.title:before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    width: 100px;
+    height: 3px;
+    background-color: #44A3E9;
+    transform: translateX(-50%)
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 30px rgba(240, 227, 227, 0.4);
+
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+    position: relative;
+
+}
+
+.img-container:before {
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #44A3E9;
+    border-radius: 50%;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    position: relative;
+    display: block;
+    object-fit: cover;
+}
+
+.img-container i {
+    width: 40px;
+    height: 40px;
+    background-color: #44A3E9;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 0;
+}
+
+
+button {
+    background-color: #fff;
+    color: #49A6EA;
+    padding: 7px 15px;
+    border: 2px solid #49A6EA;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.review #name {
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.review #job {
+    color: #44A3E9;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+   
+
+}
+
+.random-btn {
+    border: 2px solid #49A6EA;
+    color: #49A6EA;
+    border-radius: 4px;
+    background-color: #fff;
+}
